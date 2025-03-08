@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Monitor Dashboard</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Process Monitor Dashboard</h1>
+            <div class="last-update">Last Update: <span id="updateTime">-</span></div>
+        </header>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <h3>CPU Usage</h3>
+                <div class="metric-value" id="cpuUsage">0%</div>
+            </div>
+            <div class="metric-card">
+                <h3>Memory Usage</h3>
+                <div class="metric-value" id="memoryUsage">0%</div>
+            </div>
+            <div class="metric-card">
+                <h3>Disk Usage</h3>
+                <div class="metric-value" id="diskUsage">0%</div>
+            </div>
+            <div class="metric-card">
+                <h3>Active Processes</h3>
+                <div class="metric-value" id="processCount">0</div>
+            </div>
+        </div>
