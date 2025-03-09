@@ -33,3 +33,32 @@
                 <div class="metric-value" id="processCount">0</div>
             </div>
         </div>
+         <div class="chart-container">
+            <canvas id="performanceChart"></canvas>
+        </div>
+
+        <div class="process-list">
+            <div class="process-header">
+                <h2>Running Processes</h2>
+                <input type="text" id="processSearch" placeholder="Search processes...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>PID</th>
+                        <th>Name</th>
+                        <th>CPU %</th>
+                        <th>Memory %</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="processTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+
+</html>
