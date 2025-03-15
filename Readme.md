@@ -14,20 +14,6 @@ Process Monitor is a web-based application that provides real-time monitoring of
 - **Frontend**: HTML, CSS, JavaScript, Chart.js
 - **Data Fetching**: AJAX for dynamic updates
 
-## Project Structure
-```
-/process-monitor  
-│── /static  
-│   ├── /css  
-│   │   ├── style.css  
-│   ├── /js  
-│   │   ├── script.js  
-│── /templates  
-│   ├── index.html  
-│── app.py  
-│── requirements.txt  
-│── README.md  
-```
 
 ## Installation
 ### Prerequisites
